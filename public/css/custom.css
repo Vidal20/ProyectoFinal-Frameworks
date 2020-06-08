@@ -1,0 +1,717 @@
+.navbar-laravel {
+    background-color: #303f9f;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .04);
+}
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: non;
+    list-style-type: none;
+    margin-left: -150px;
+}
+
+.titulo:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 25px;
+    text-decoration: non;
+    list-style-type: none;
+}
+
+.btnInicio {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: non;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.btnSalir {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: non;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.btnSalir:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: non;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.btnInicio:hover {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 20px;
+    text-decoration: non;
+    padding-left: 15px;
+    list-style-type: none;
+}
+
+.activo {
+    text-decoration: none;
+    background-color: #fff;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.activo a {
+    color: #495057 !important;
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+.card-body {
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    background-color: #303f9f;
+}
+
+.oculto {
+    display: none;
+}
+
+.noculto {
+    display: inline;
+}
+
+#LibroForm {
+    position: absolute;
+    background-color: rgba(54, 54, 54, 0.7);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#LibroForm form {
+    display: inline-block;
+    text-align: left;
+}
+
+.categorias {
+    margin-top: 0px;
+    margin-left: 50px;
+    filter: drop-shadow(5px 5px 20px #444);
+}
+
+.ulcon {
+    width: auto;
+    height: auto;
+}
+
+.dife {
+    margin-top: -100px;
+}
+
+.subcategorias {
+    list-style-type: none;
+    margin-top: -580px;
+    margin-left: 250px;
+    width: 150px;
+    height: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    line-height: 35px;
+    background-color: #FF9800;
+    color: white;
+    text-decoration: none;
+}
+
+.contenedor {
+    margin-top: 5px;
+    justify-content: center;
+    margin-left: -40px;
+    text-decoration: none;
+}
+
+.ulcat {
+    list-style-type: none;
+}
+
+.ulcategorias {
+    padding: 4px, 4px, 4px, 4px;
+    line-height: 150px;
+    list-style-type: none;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: black;
+    background-color: #FF9800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ulcategorias:hover {
+    padding: 4px, 4px, 4px, 4px;
+    list-style-type: none;
+    border: 1px solid black;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 6px;
+    border: 2px solid black;
+    background-color: #FF5722;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-item {
+    text-decoration: none;
+    background-color: #FF9800;
+}
+
+.nav-item:hover {
+    background-color: #FF5722;
+    text-decoration: none;
+}
+
+.textoa {
+    color: #757575;
+    text-decoration: none;
+}
+
+.textoa:hover {
+    color: #757575;
+    text-decoration: none;
+}
+
+.ulsubcategorias1 {
+    line-height: 50px;
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: black;
+    background-color: #FF9800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.ulsubcategorias2 {
+    line-height: 50px;
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 50px;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: black;
+    background-color: #FF9800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.uls1 {
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 150px;
+    list-style-type: none;
+    border: 2px solid black;
+    color: black;
+    background-color: #FF9800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.uls2 {
+    display: inline;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    line-height: 150px;
+    list-style-type: none;
+    border: 2px solid black;
+    color: black;
+    background-color: #FF9800;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.nav-lii {
+    display: inline;
+}
+
+.subc {
+    margin-top: -650px;
+    margin-left: 200px;
+}
+
+.tCat {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 125px;
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+
+.sCat {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 85px;
+    display: inline;
+    color: white;
+    font-size: 20px;
+}
+
+.contenedor2 {
+    margin-top: -100px;
+}
+
+.contenedor3 {
+    margin-top: 120px;
+}
+
+.notas {
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 800px;
+    height: 320px;
+    margin-left: 600px;
+    padding-top: 5px;
+    padding-right: 15px;
+    background-color: white;
+    filter: drop-shadow(5px 5px 10px #444);
+    margin-top: -130px;
+    margin-bottom: 160px;
+}
+
+.tituloT {
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autorT {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.descripcionT {
+    font-weight: 500;
+}
+
+.fechaActDiv {
+    border-radius: 2px;
+    margin-top: 160px;
+    margin-left: 301px;
+    width: 170px;
+    text-align: center;
+    font-size: small;
+    color: black;
+    font-weight: bolder;
+    background-color: yellow;
+    filter: drop-shadow(0px 0px 5px #444);
+}
+
+.btnSus {
+    margin-top: -180px;
+}
+
+.btnSuscri {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 6px;
+}
+
+.btnSuscri:hover {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: grey;
+    border-radius: 6px;
+}
+
+.notasOcultas {
+    border-radius: 15px;
+    border: 2px solid black;
+    width: 800px;
+    height: 320px;
+    margin-left: 600px;
+    padding-top: 15px;
+    padding-right: 15px;
+    background-color: white;
+    filter: drop-shadow(5px 5px 10px #444);
+    margin-top: -130px;
+    margin-bottom: 160px;
+}
+
+.conten1 {
+    margin-top: -550px;
+}
+
+.cont {
+    margin-top: -150px;
+}
+
+.fechaPub {
+    border-radius: 2px;
+    margin-top: -10px;
+    margin-left: 349px;
+    width: 122px;
+    font-size: x-small;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #8bc34a;
+    filter: drop-shadow(0px 0px 5px #444);
+}
+
+.tituloTo {
+    margin-top: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.autorTo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+}
+
+.descripcionTo {
+    font-weight: 500;
+}
+
+.fechaActDivo {
+    border-radius: 2px;
+    margin-top: 126px;
+    margin-left: 301px;
+    width: 170px;
+    text-align: center;
+    font-size: small;
+    color: black;
+    font-weight: bolder;
+    background-color: yellow;
+    filter: drop-shadow(0px 0px 5px #444);
+}
+
+.fechaPubo {
+    border-radius: 2px;
+    margin-top: -74px;
+    margin-left: 349px;
+    width: 122px;
+    font-size: x-small;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #8bc34a;
+    filter: drop-shadow(0px 0px 5px #444);
+}
+
+.btnSuscrio {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: red;
+    border-radius: 6px;
+    margin-top: -112px;
+}
+
+.btnSuscrio:hover {
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: grey;
+    border-radius: 6px;
+}
+
+.brrs {
+    margin-top: -20px;
+}
+
+.bienvenida-text {
+    margin-top: -100px;
+    visibility: hidden;
+}
+
+.btn-version {
+    margin-top: -80px;
+}
+
+.txt-version {
+    margin-top: -40px;
+}
+
+.divSecciones {
+    margin-top: 500px;
+    display: block;
+    color: white;
+}
+
+.pendientes {
+    margin-left: 650px;
+}
+
+.divAutores {
+    margin-left: 485px;
+    color: white;
+}
+
+.divSeleccion {
+    margin-left: 85px;
+    color: white;
+}
+
+.autoresdiv {
+    line-height: 25px;
+    list-style-type: none;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: black;
+    background-color: #8bc34a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: left;
+    margin-left: -80px;
+}
+
+.autor-div {
+    color: white;
+}
+
+.autor-div:hover {
+    color: white;
+}
+
+.autoresdiv2 {
+    padding: 4px, 4px, 4px, 4px;
+    line-height: 25px;
+    margin: 10px;
+    justify-content: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: 2px solid black;
+    color: black;
+    background-color: #8bc34a;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+}
+
+.contenedorlist {
+    margin-top: 150px;
+    margin-right: -60px;
+}
+
+.seleccionesAct {
+    width: 300;
+    margin-left: -190px;
+    margin-bottom: -22px;
+}
+
+.proponer-btn {
+    margin-left: 650px;
+    margin-top: 50px;
+}
+
+.btnEdicion {
+    margin-top: -70px;
+}
+
+.titulo-inicioS {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
+}
+
+.txt-usuario {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #303f9f;
+    margin-top: 40px;
+}
+
+.card-body-datos {
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    margin-left: 300px;
+    margin-top: -300px;
+}
+
+.card-body-login {
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    background-color: #303f9f;
+    width: 300px;
+    height: 300px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.card-body-login-txt {
+    font-size: 50px;
+    margin-left: 90px;
+}
+
+.card-body-regis {
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    background-color: #303f9f;
+    width: 500px;
+    height: 500px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    margin-left: -150px;
+    margin-top: 80px;
+}
+
+.card-body-regis-txt {
+    font-size: 50px;
+    margin-left: 130px;
+}
+
+.card-body-datos-regis {
+    padding: 0rem !important;
+    padding-bottom: 1rem !important;
+    background-color: white;
+    width: 500px;
+    height: 500px;
+    margin-left: 350px;
+    margin-top: -500px;
+}
+
+.form-int {
+    background-color: white;
+    padding: .5rem;
+    margin: .5rem 0;
+    border: none;
+    border-bottom: solid #303f9f .1rem;
+    transition: all .5s;
+    width: 170px;
+    margin-top: 30px;
+    margin-left: -15px;
+}
+
+.form-int:focus {
+    border-bottom: solid red .1rem;
+}
+
+.icon-arrow-right2 {
+    background-color: #8bc34a;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.contenedor-login {
+    margin-top: 120px;
+    margin-left: 10px;
+}
+
+.form-control-input {
+    border-radius: 20px;
+    border: 1px solid black;
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    background-color: #03a9f4;
+    color: white;
+}
+
+.opti {
+    color: white;
+}
+
+.contenedor-flecha {
+    margin-left: 200px;
+}
+
+.btn2 {
+    background-color: #8bc34a;
+    width: 230px;
+    height: 35px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+.btn-Contenido {
+    border-radius: 20px;
+    border: 2px solid white;
+    padding: 10px;
+    background-color: #1a7008;
+    color: white;
+    justify-content: center;
+    width: 500px;
+    margin-left: -15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.border-divs {
+    border: 2px solid white;
+}
+
+.modal-titulo {
+    background-color: #303f9f;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.modal-cuerpo {
+    background-color: #03a9f4;
+}
+
+.modal-nuevol {
+    background-color: #303f9f;
+    color: #E8E9EB;
+    border-radius: 10px;
+}
+
+.texto-modal {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.div-descrip {
+    margin-left: 250px;
+    width: 200px;
+    height: 300px;
+}
+
+.div-autor {
+    margin-top: -316px;
+    width: 200px;
+}
+
+.div-cati {
+    margin-top: 0px;
+    width: 200px;
+}
+
+.btn-modal-enviar {
+    margin-top: 200px;
+    margin-left: 150px;
+}
