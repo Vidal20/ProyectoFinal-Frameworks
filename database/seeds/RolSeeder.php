@@ -13,11 +13,11 @@ class RolSeeder extends Seeder
     {
         DB::table('rols') -> insert([
         	'nombre' => 'Difusor',
-        	'descripcion' => 'Persona que observa versiones y puede eliminar',
+        	'descripcion' => 'Difusor',
         ]);
         DB::table('rols') -> insert([
 			'nombre' => 'Autor',
-        	'descripcion' => 'Persona que publica contenidos',
+        	'descripcion' => 'Autor',
         ]);
     }
 }
