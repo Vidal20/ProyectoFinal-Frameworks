@@ -175,6 +175,7 @@
 .nav-item {
     text-decoration: none;
     background-color: #FF9800;
+    list-style-type: none;
 }
 
 .nav-item:hover {
@@ -230,7 +231,7 @@
     padding-top: 5px;
     line-height: 150px;
     list-style-type: none;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     background-color: #FF9800;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -244,7 +245,7 @@
     padding-top: 5px;
     line-height: 150px;
     list-style-type: none;
-    border: 2px solid black;
+    border: 1px solid black;
     color: black;
     background-color: #FF9800;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
